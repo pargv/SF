@@ -23,13 +23,13 @@ def random_predict(number: int = 1) -> int:
     while True:
         count += 1
         # используем алгоритм бисекции
-        predict_number = int((min_num+max_num)/2) # предполагаемое число (середина отрезка)
+        predict_number = int((min_num + max_num)/2) # предполагаемое число (середина отрезка)
         if number == predict_number:
             break  # выход из цикла если угадали
         elif (number < predict_number):
             max_num = predict_number
         else:
-            min_num =predict_number
+            min_num = predict_number
     return count
 
 
