@@ -3,5 +3,5 @@ From the [SkillFactory Data Science cource](https://skillfactory.ru/data-scienti
 
 ## Projects
 
-* [Project 0. The Game: Guess a number](https://github.com/pargv/SF)
+* [Project 0. The Game: Guess a number](https://github.com/pargv/SF/project_0)
 
